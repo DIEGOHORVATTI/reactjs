@@ -4,7 +4,7 @@ export const colors= {
   dark: '#000000',
   secondary: '#848688',
   gray: '#B7B7B7',
-  body: '#444',
+  body: '#000',
   white: '#FFFF',
   Transparence: 'rgba(0,0,0,0)'
 }

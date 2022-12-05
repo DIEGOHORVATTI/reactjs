@@ -22,7 +22,7 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": ["import", "react", "@typescript-eslint", "prettier"],
+  "plugins": ["react", "@typescript-eslint", "prettier"],
   "rules": {
     "camelcase": "off",
     "react/display-name": "off",
