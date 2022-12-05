@@ -19,11 +19,18 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "preserve",
-    "baseUrl": "src",
-    "incremental": true
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "@public/*": ["./public/*"],
+      "@styles/*": ["./styles/*"],
+      "@components/*": ["./src/components/*"],
+      "@pages/*": ["./src/pages/*"]
+    }
   },
   "include": [
-    "src"
+    "src", 
+    "styles/style.ts"  
   ],
   "exclude": [
     "node_modules"

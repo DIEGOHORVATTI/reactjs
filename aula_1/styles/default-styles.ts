@@ -1,12 +1,16 @@
 export const colors= {
-  primary: '#C33538',
-  hoverPrimary: '#6A0000',
-  dark: '#000000',
-  secondary: '#848688',
-  gray: '#B7B7B7',
+  Transparence: 'rgba(0,0,0,0)',
   body: '#000',
+  primary: '#0373F1',
+  secondary: '#6D7180',
+  success: '#32A24D',
+  danger: '#D93B4E',
+  warning: '#F5B813',
+  info: '#229EB8',
+  light: '#F2EEF4',
+  dark: '#3C3D48',
+  gray: '#444',
   white: '#FFFF',
-  Transparence: 'rgba(0,0,0,0)'
 }
 
 export const sizes= {

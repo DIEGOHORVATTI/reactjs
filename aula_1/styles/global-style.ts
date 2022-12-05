@@ -21,6 +21,7 @@ export default createGlobalStyle`
     font-size: ${sizes.fontSize};
     background-color: ${colors.body};
     color: ${colors.white};
+    background-color: ${colors.gray};
   }
 
   .crisp-client {
