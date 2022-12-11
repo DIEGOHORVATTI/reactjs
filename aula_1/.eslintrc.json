@@ -8,10 +8,15 @@
       "version": "detect"
     }
   },
+  "globals": {
+    "JSX": "readonly",
+    "Dict": "readonly"
+  },
   "extends": [
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
     "standard",
+    "plugin:@next/next/recommended",
     "plugin:prettier/recommended"
   ],
   "parser": "@typescript-eslint/parser",
@@ -22,11 +27,16 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": ["react", "@typescript-eslint", "prettier"],
+  "plugins": [
+    "react",
+    "react-hooks",
+    "@typescript-eslint",
+    "prettier"
+  ],
   "rules": {
-    "camelcase": "off",
-    "react/display-name": "off",
-    "no-unused-vars": "warn",
-    "no-unreachable": "warn"
+    "react/react-in-jsx-scope": "off",
+    "@next/next/no-img-element": "off",
+    "react/prop-types": "off",
+    "camelcase": "off"
   }
 }
