@@ -18,15 +18,6 @@ export const Equipe = (props: any) => {
   )
 }
 
-export const Sobre = (props: any) => {
-  return (
-    <div>
-      <h4>Nome: {props.nome}</h4>
-      <br />
-    </div>
-  )
-}
-
 const Aula_3: React.FC = () => {
   return (
     <Title>
